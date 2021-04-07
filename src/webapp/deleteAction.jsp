@@ -17,7 +17,7 @@
 <body>
 <%
     String userID = null;
-    // 세션
+    <!-- session -->
     if (session.getAttribute("userID") != null) {
         userID = (String) session.getAttribute("userID");
     }
@@ -35,6 +35,7 @@
     if (bbsID == 0) {
         PrintWriter script = response.getWriter();
         script.println("<script>");
+        // debug
         script.println("alert('유효하지 않은 글입니다.')");
         script.println("location.href = 'bbs.jsp'");
         script.println("</script>");
