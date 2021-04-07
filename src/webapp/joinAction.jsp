@@ -55,13 +55,14 @@ request.setCharacterEncoding("UTF-8");
 			script.println("</script>");
 		}
 		// 성공
-		else {
-			session.setAttribute("userID", user.getUserID());
-			PrintWriter script = response.getWriter();
-			script.println("<script>");
-			script.println("location.href='main.jsp'");
-			script.println("</script>");
-		}
+		// need to change
+		// else {
+		// 	session.setAttribute("userID", user.getUserID());
+		// 	PrintWriter script = response.getWriter();
+		// 	script.println("<script>");
+		// 	script.println("location.href='main.jsp'");
+		// 	script.println("</script>");
+		// }
 	}
 	%>
 </body>
