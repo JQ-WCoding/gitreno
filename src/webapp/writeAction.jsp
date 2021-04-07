@@ -55,6 +55,6 @@
 		}
 	}
 	%>
-
+<!-- this line will appear on cmder prompt when I use git   -->
 </body>
 </html>
