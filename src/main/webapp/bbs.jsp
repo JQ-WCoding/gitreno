@@ -22,7 +22,7 @@
 </head>
 
 <body>
-<!-- test -->
+
 <%
     String userID = null;
     if (session.getAttribute("userID") != null) {
